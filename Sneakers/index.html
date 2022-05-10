@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>Sneakers</title>
+</head>
+<body>
+    <div class="sidebar">
+        <h3 class="logo">Sneak.er</h3>
+        <div class="home-text">
+            <h3><a href="">Home</a></h3>
+        </div>
+        <div class="home-text">
+            <h3> <a href="">Catalog</a></h3>
+        </div>
+        <div class="home-text">
+            <h3> <a href="">Support</a></h3>
+        </div>
+        <div class="home-text">
+            <h3> <a href="">About Us</a></h3>
+        </div>
+
+        <div class="cart">
+            <a href="#">
+                <i class='bx bxs-shopping-bag' style='color:rgba(255,255,255,0.47); font-size: 24px;' ></i>
+                <span class="name-menu">Cart </h3>
+            </a>
+        </div>
+        <div class="cart sm">
+            <a href="#">
+                <i class='bx bxs-heart' style='color:rgba(255,255,255,0.47); font-size: 24px;' ></i>
+                <span class="name-menu">Favorites </h3>
+            </a>
+        </div>   
+        </div>
+    </div>
+
+   <div class="container">
+        <div class="topnav">
+            <h3 class="name-div">
+                Home
+            </h3>
+
+            <div class="more">
+            <div id="Search" class="search-area"  >
+               <i class='bx bx-search' style='color:rgba(255,255,255,0.47)' onclick="toggleSearch()" ></i> <input type="search" placeholder="search">
+            </div>
+            <div class="options">
+              <i class='bx bx-menu-alt-left'  style='color:rgba(255,255,255,0.47); font-size: 24px;' onclick="toggleOptions()"> </i>
+                
+            </div>
+            </div>
+            <div id="Box" class="box">
+                <div class="content">
+                <h3>ordernar por:</h3>
+                <ul>
+                    <li><a href=""> Biggiest price</a></li>
+                    <li><a href=""> Lowest price</a></li>
+                    <li><a href=""> Release</a></li>
+                </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid-content">
+            <div class="item one">
+                <div class="content">
+                    <div class="img">
+                    <img src="img/tenis-nike-paul-george-2-masculino-AJ2039-003-1.png" alt="">
+                </div>
+               
+                    <h3>Paul George 2</h3>
+
+
+                    <div class="buy-area">
+                    <h3>120$</h3>
+
+                    <a href="#" class="buy"> Buy</a>
+                </div>
+                </div>
+            </div>
+            <div class="item two">
+                <div class="content">
+                    <div class="img">
+                    <img src="img/tenis-nike-zoomx-streakfly-masculino-DJ6566-100-1-11644341847-_1_-removebg-preview.png" alt="">
+                </div>
+                <div class="shop-area">
+                    <h3> ZoomX Streakfly </h3>
+                    <div class="buy-area">
+                        <h3>160$</h3>
+    
+                        <a href="#" class="buy"> Buy</a>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="item three">
+                <div class="content">
+                    <div class="img">
+                    <img src="img/tenis-air-jordan-legacy-312-low-CD7069-004-1-11639065384-removebg-preview.png" alt="">
+                </div>
+                <div class="shop-area">
+                    <h3> Air Jordan Legacy 312 Low </h3>
+                    <div class="buy-area">
+                        <h3>240$</h3>
+    
+                        <a href="#" class="buy"> Buy</a>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="item four">
+                <div class="content">
+                    <div class="img">
+                    <img src="img/tenis-nike-air-zoom-pegasus-38-CW7356-009-1-11638987046-removebg-preview.png" alt="">
+                </div>
+                <div class="shop-area">
+                    <h3>Air Zoom Pegasus 38</h3>
+                    <div class="buy-area">
+                        <h3>120$</h3>
+    
+                        <a href="#" class="buy"> Buy</a>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="item five">
+                <div class="content">
+                    <div class="img">
+                    <img src="img/tenis-nike-escape-run-flyknit-feminino-DC4269-001-1-11645627881-removebg-preview.png" alt="">
+                </div>
+                <div class="shop-area">
+                    <h3> Escape Run Flyknit </h3>
+                    <div class="buy-area">
+                        <h3>160$</h3>
+    
+                        <a href="#" class="buy"> Buy</a>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="item six">
+                <div class="content">
+                    <div class="img">
+                    <img src="img/tenis-nike-metcon-7-amp-unissex-DH3382-504-1-11643727158_1-removebg-preview.png" alt="">
+                </div>
+                <div class="shop-area">
+                    <h3> Metcon 7 </h3>
+                    <div class="buy-area">
+                        <h3>510$</h3>
+    
+                        <a href="#" class="buy"> Buy</a>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="item seven">
+                <div class="content">
+                    <div class="img">
+                    <img src="img/tenis-w-air-max-90-DJ3862-600-1_2-removebg-preview.png" alt="">
+                </div>
+                <div class="shop-area">
+                    <h3> Air Max 90 </h3>
+                    <div class="buy-area">
+                        <h3>220$</h3>
+    
+                        <a href="#" class="buy"> Buy</a>
+                    </div>
+                </div>
+                </div>
+            </div>
+           
+        </div>
+    </div>
+</body>
+<script> 
+function toggleSearch(){
+    document.getElementById("Search").classList.toggle("active");
+    
+    
+
+}
+function toggleOptions(){
+    document.getElementById('Box').classList.toggle("active");
+}
+
+</script>
+</html>
