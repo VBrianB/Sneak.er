@@ -4,6 +4,8 @@ Projeto apenas para teste de Grid Layout, com um tema que eu gosto muito que é 
 
 <h3 align="center">Desktop</h3>
 <br>
+
+<div align="center">
 <img src="prints/print1.jpeg">
 <h3 align="center">Mobile 1</h3>
 <br>
@@ -11,7 +13,7 @@ Projeto apenas para teste de Grid Layout, com um tema que eu gosto muito que é 
 <h3 align="center">Mobile 1.1</h3>
 <br>
 <img src="prints/print3.jpeg">
-
+</div>
 <br>
 
 ## 💡 Ideia 
