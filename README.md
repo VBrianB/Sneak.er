@@ -2,6 +2,8 @@
 
 Projeto apenas para teste de Grid Layout, com um tema que eu gosto muito que é e-commerce, principalmente de Tênis e assuntos esportivos. 
 
+Você pode ver o projeto funcionando [AQUI](https://vbrianb.github.io/Sneak.er/)
+
 <h3 align="center">Desktop</h3>
 <br>
 
